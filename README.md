@@ -10,6 +10,14 @@ Nedan följer instruktioner hur du kan använda pluginet "region-halland-mce-but
 Denna plugin skapar formatering-knappar i Wordpress editor + att man kan koppla en css-fil till edotorn för visuell styling
 
 
+## Licensmodell
+
+Denna plugin använder licensmodell GPL-3.0. Du kan läsa mer om denna licensmodell via den medföljande filen:
+```sh
+LICENSE (https://github.com/RegionHalland/region-halland-mce-buttons-with-css/blob/master/LICENSE)
+```
+
+
 ## Installation och aktivering
 
 ```sh
@@ -59,6 +67,12 @@ OBS! Själva filen ska ligga i foldern "web/app/themes/[THEME-NAME]/resources/"
 WP_EDITOR_STYLE_CSS=[MY-CSS-FILE.css]
 ```
 
+
+## Versionhistorik
+
+### 1.1.0
+- Uppdaterat med information om licensmodell
+- Bifogat fil med licensmodell
 
 ### 1.0.0
 - Första version
