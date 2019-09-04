@@ -1,0 +1,13 @@
+{
+    "name": "regionhalland/region-halland-mce-buttons-with-css",
+    "description": "Skapa formatering-knappar i Wordpress editor inklusive css",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Roland Hydén",
+            "email": "Roland.Hyden@Regionhalland.se"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,70 @@
+body {
+	color: #333;
+	font-family: "Noto Serif", serif;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.6471;
+	margin: 20px 40px;
+	max-width: 660px;
+	vertical-align: baseline;
+}
+
+
+/**
+ * 2.0 Typography
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-weight: 700;
+	margin: 56px 0 28px;
+}
+
+h1 {
+	font-size: 35px;
+	line-height: 1.2308;
+	color:red;
+}
+
+h2 {
+	font-size: 29px;
+	line-height: 1.2069;
+	color:red;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 1.1667;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+h5,
+h6 {
+	font-size: 17px;
+	letter-spacing: 0.1em;
+	line-height: 1.2353;
+	text-transform: uppercase;
+}
+
+.blue-box { 
+	color: blue;
+	height: 100px;
+	width: 300px;
+	background-color: yellow;
+}
+
+.red-box { 
+	color: red;
+	height: 100px;
+	width: 300px;
+	background-color: yellow;
+}
