@@ -56,7 +56,7 @@ OBS! Justera så att du hämtar aktuell version.
 OBS! Själva filen ska ligga i foldern "web/app/themes/[THEME-NAME]/resources/"
 
 ```sh
-WP_EDITOR_STYLE_CSS=my-editor-style.css
+WP_EDITOR_STYLE_CSS=[MY-CSS-FILE.css]
 ```
 
 
