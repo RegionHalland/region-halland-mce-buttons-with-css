@@ -70,6 +70,9 @@ WP_EDITOR_STYLE_CSS=[MY-CSS-FILE.css]
 
 ## Versionhistorik
 
+### 1.2.0
+- Lagt till nya format-mallar
+
 ### 1.1.0
 - Uppdaterat med information om licensmodell
 - Bifogat fil med licensmodell

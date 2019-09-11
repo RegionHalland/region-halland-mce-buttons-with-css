@@ -68,3 +68,48 @@ h6 {
 	width: 300px;
 	background-color: yellow;
 }
+
+.infobox--border {
+	background-color: #ddeef9;
+	padding: 1.2em;
+}
+
+.infobox--list-header-children {
+	background-color: orange;
+	padding: 1em;
+}
+
+.infobox--list-content-children{
+	background-color: yellow;
+	padding: 0.8em;
+}
+
+.infobox--list-header-old {
+	background-color: blue;
+	padding: 1em;
+}
+
+.infobox--list-content-old{
+	background-color: lightgrey;
+	padding: 0.8em;
+}
+
+.table--header {
+	background-color: lightblue;
+	padding: 0.5em;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+table {
+	border:solid 1px black;
+}
+
+thead {
+	background-color: blue;
+}
+
+tbody {
+	background-color: yellow;
+}

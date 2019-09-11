@@ -6,7 +6,7 @@
 	/*
 	Plugin Name: Region Halland Mce Buttons with Css
 	Description: Skapa formatering-knappar i Wordpress editor inklusive css
-	Version: 1.1.0
+	Version: 1.2.0
 	Author: Roland Hydén
 	License: GPL-3.0
 	Text Domain: regionhalland
@@ -20,6 +20,7 @@
 		
 		// Kontrollera om det finns en angiven css för wordpress editor
 		$myEditorStyle = ENV('WP_EDITOR_STYLE_CSS');
+		
 		$useMyEditorStyle = 0;
 		if (strlen($myEditorStyle) > 0) {
 			$useMyEditorStyle = 1;
@@ -46,15 +47,39 @@
 		// Skapa format-knappar
 		$myButtons = array(
 			array(  
-				'title' => 'Blue Text',  
-				'block' => 'span',  
-				'classes' => 'blue-box',
+				'title' => 'Blå bakgrund',  
+				'block' => 'div',  
+				'classes' => 'infobox--border',
+				'wrapper' => true,
+			),
+			array(  
+				'title' => 'List rubrik (barn)',  
+				'block' => 'div',  
+				'classes' => 'infobox--list-header-children',
 				'wrapper' => true,
 			),  
 			array(  
-				'title' => 'Red Text',  
-				'block' => 'span',  
-				'classes' => 'red-box',
+				'title' => 'List innehåll (barn)',  
+				'block' => 'div',  
+				'classes' => 'infobox--list-content-children',
+				'wrapper' => true,
+			),  
+			array(  
+				'title' => 'List rubrik (äldre)',  
+				'block' => 'div',  
+				'classes' => 'infobox--list-header-old',
+				'wrapper' => true,
+			),  
+			array(  
+				'title' => 'List innehåll (äldre)',  
+				'block' => 'div',  
+				'classes' => 'infobox--list-content-old',
+				'wrapper' => true,
+			),
+			array(  
+				'title' => 'Tabellrubrik',  
+				'block' => 'div',  
+				'classes' => 'table--header',
 				'wrapper' => true,
 			),  
 		);  
